@@ -1,0 +1,65 @@
+{
+  "name": "peptide-calculator",
+  "version": "1.0.0",
+  "description": "Peptide and GLP-1 reconstitution calculator: mg to insulin syringe units (U-100, U-50, U-30, U-40), blends and doses per vial. Exact math, zero dependencies, plus a one-line embeddable widget.",
+  "keywords": [
+    "peptide calculator",
+    "reconstitution calculator",
+    "peptide dosage",
+    "syringe units",
+    "insulin syringe",
+    "glp-1",
+    "semaglutide",
+    "tirzepatide",
+    "retatrutide",
+    "bpc-157",
+    "tb-500",
+    "mcp"
+  ],
+  "author": "TruePeptideSource (https://truepeptidesource.com)",
+  "license": "MIT",
+  "homepage": "https://truepeptidesource.com/calculators/reconstitution",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TruePeptideSource/peptide-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TruePeptideSource/peptide-calculator/issues"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/lib/index.js",
+  "types": "./dist/lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/lib/index.d.ts",
+      "default": "./dist/lib/index.js"
+    },
+    "./embed.js": "./dist/embed.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "npm run build:lib && npm run build:embed",
+    "build:lib": "tsc -p tsconfig.build.json",
+    "build:embed": "node scripts/build-embed.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "presets": "node scripts/sync-presets.mjs",
+    "screenshot": "node scripts/screenshot.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "esbuild": "^0.28.2",
+    "playwright": "1.64.1",
+    "typescript": "~6.0.3",
+    "vitest": "^5.0.5"
+  }
+}

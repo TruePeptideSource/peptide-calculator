@@ -1,0 +1,811 @@
+{
+  "source": "https://truepeptidesource.com/mcp",
+  "recordedAt": "2026-11-24",
+  "reconstitution": [
+    {
+      "input": {
+        "vialAmount": 10,
+        "waterMl": 2,
+        "dose": 2,
+        "doseUnit": "mg"
+      },
+      "site": {
+        "units": 40,
+        "liquidPerDose": "0.4 mL",
+        "concentration": [
+          "5 mg/mL",
+          "5000 mcg/mL"
+        ],
+        "fullDosesPerVial": 5,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 40
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 16
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 40
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 20,
+        "waterMl": 2,
+        "dose": 2.5,
+        "doseUnit": "mg"
+      },
+      "site": {
+        "units": 25,
+        "liquidPerDose": "0.25 mL",
+        "concentration": [
+          "10 mg/mL",
+          "10000 mcg/mL"
+        ],
+        "fullDosesPerVial": 8,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 25
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 10
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 25
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 20,
+        "waterMl": 1,
+        "dose": 2.5,
+        "doseUnit": "mg"
+      },
+      "site": {
+        "units": 12.5,
+        "liquidPerDose": "0.125 mL",
+        "concentration": [
+          "20 mg/mL",
+          "20000 mcg/mL"
+        ],
+        "fullDosesPerVial": 8,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 12.5
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 5
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 12.5
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 5,
+        "waterMl": 2,
+        "dose": 0.25,
+        "doseUnit": "mg"
+      },
+      "site": {
+        "units": 10,
+        "liquidPerDose": "0.1 mL",
+        "concentration": [
+          "2.5 mg/mL",
+          "2500 mcg/mL"
+        ],
+        "fullDosesPerVial": 20,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 10
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 4
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 10
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 10,
+        "waterMl": 2,
+        "dose": 0.25,
+        "doseUnit": "mg"
+      },
+      "site": {
+        "units": 5,
+        "liquidPerDose": "0.05 mL",
+        "concentration": [
+          "5 mg/mL",
+          "5000 mcg/mL"
+        ],
+        "fullDosesPerVial": 40,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 5
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 2
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 5
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 10,
+        "waterMl": 2,
+        "dose": 250,
+        "doseUnit": "mcg"
+      },
+      "site": {
+        "units": 5,
+        "liquidPerDose": "0.05 mL",
+        "concentration": [
+          "5 mg/mL",
+          "5000 mcg/mL"
+        ],
+        "fullDosesPerVial": 40,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 5
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 2
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 5
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 6,
+        "waterMl": 2,
+        "dose": 1,
+        "doseUnit": "mg"
+      },
+      "site": {
+        "units": 33.3,
+        "liquidPerDose": "0.333 mL",
+        "concentration": [
+          "3 mg/mL",
+          "3000 mcg/mL"
+        ],
+        "fullDosesPerVial": 6,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 33.3
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 13.3
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 33.3
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 10,
+        "waterMl": 3,
+        "dose": 250,
+        "doseUnit": "mcg"
+      },
+      "site": {
+        "units": 7.5,
+        "liquidPerDose": "0.075 mL",
+        "concentration": [
+          "3.333 mg/mL",
+          "3333.3 mcg/mL"
+        ],
+        "fullDosesPerVial": 40,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 7.5
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 3
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 7.5
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 15,
+        "waterMl": 1.5,
+        "dose": 7.5,
+        "doseUnit": "mg"
+      },
+      "site": {
+        "units": 75,
+        "liquidPerDose": "0.75 mL",
+        "concentration": [
+          "10 mg/mL",
+          "10000 mcg/mL"
+        ],
+        "fullDosesPerVial": 2,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 75
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 30
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 75
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 30,
+        "waterMl": 3,
+        "dose": 2.4,
+        "doseUnit": "mg"
+      },
+      "site": {
+        "units": 24,
+        "liquidPerDose": "0.24 mL",
+        "concentration": [
+          "10 mg/mL",
+          "10000 mcg/mL"
+        ],
+        "fullDosesPerVial": 12,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 24
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 9.6
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 24
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 2,
+        "waterMl": 1,
+        "dose": 100,
+        "doseUnit": "mcg"
+      },
+      "site": {
+        "units": 5,
+        "liquidPerDose": "0.05 mL",
+        "concentration": [
+          "2 mg/mL",
+          "2000 mcg/mL"
+        ],
+        "fullDosesPerVial": 20,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 5
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 2
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 5
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 7,
+        "waterMl": 3,
+        "dose": 333,
+        "doseUnit": "mcg"
+      },
+      "site": {
+        "units": 14.3,
+        "liquidPerDose": "0.143 mL",
+        "concentration": [
+          "2.333 mg/mL",
+          "2333.3 mcg/mL"
+        ],
+        "fullDosesPerVial": 21,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 14.3
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 5.7
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 14.3
+          }
+        ]
+      }
+    }
+  ],
+  "reverse": [
+    {
+      "input": {
+        "vialAmount": 10,
+        "waterMl": 2,
+        "unitsDrawn": 10,
+        "syringe": "U-100"
+      },
+      "site": {
+        "summary": "10 units on a U-100, 1 mL syringe holds 500 mcg (0.1 mL of liquid) from a 10 mg vial mixed with 2 mL of water.",
+        "mode": "units_to_dose",
+        "dose": "500 mcg",
+        "doseAllUnits": [
+          "500 mcg",
+          "0.5 mg"
+        ],
+        "liquidPerDose": "0.1 mL",
+        "shareOfVial": "5%",
+        "reading": {
+          "syringe": "U-100, 1 mL",
+          "units": 10,
+          "unitsText": "10 units"
+        },
+        "warnings": [],
+        "note": "Arithmetic on the numbers given. It does not say whether a dose suits you.",
+        "calculatorUrl": "https://truepeptidesource.com/calculators/reconstitution?mode=units&vial=10&water=2&units=10&syringe=U-100&utm_source=mcp&utm_medium=ai_tool&utm_campaign=peptide_reconstitution_calculator"
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 10,
+        "waterMl": 2,
+        "unitsDrawn": 10,
+        "syringe": "U-40"
+      },
+      "site": {
+        "summary": "10 units on a U-40, 1 mL syringe holds 1250 mcg (0.25 mL of liquid) from a 10 mg vial mixed with 2 mL of water.",
+        "mode": "units_to_dose",
+        "dose": "1250 mcg",
+        "doseAllUnits": [
+          "1250 mcg",
+          "1.25 mg"
+        ],
+        "liquidPerDose": "0.25 mL",
+        "shareOfVial": "12.5%",
+        "reading": {
+          "syringe": "U-40, 1 mL",
+          "units": 10,
+          "unitsText": "10 units"
+        },
+        "warnings": [],
+        "note": "Arithmetic on the numbers given. It does not say whether a dose suits you.",
+        "calculatorUrl": "https://truepeptidesource.com/calculators/reconstitution?mode=units&vial=10&water=2&units=10&syringe=U-40&utm_source=mcp&utm_medium=ai_tool&utm_campaign=peptide_reconstitution_calculator"
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 5,
+        "waterMl": 2,
+        "unitsDrawn": 12.5,
+        "syringe": "U-100"
+      },
+      "site": {
+        "summary": "12.5 units on a U-100, 1 mL syringe holds 312.5 mcg (0.125 mL of liquid) from a 5 mg vial mixed with 2 mL of water.",
+        "mode": "units_to_dose",
+        "dose": "312.5 mcg",
+        "doseAllUnits": [
+          "312.5 mcg",
+          "0.313 mg"
+        ],
+        "liquidPerDose": "0.125 mL",
+        "shareOfVial": "6.3%",
+        "reading": {
+          "syringe": "U-100, 1 mL",
+          "units": 12.5,
+          "unitsText": "12.5 units",
+          "nearestMark": "12 units",
+          "changeIfDrawnToNearestMark": "-4%"
+        },
+        "warnings": [
+          "12.5 units falls between the 12 and 14 unit marks on this syringe."
+        ],
+        "note": "Arithmetic on the numbers given. It does not say whether a dose suits you.",
+        "calculatorUrl": "https://truepeptidesource.com/calculators/reconstitution?mode=units&vial=5&water=2&units=12.5&syringe=U-100&utm_source=mcp&utm_medium=ai_tool&utm_campaign=peptide_reconstitution_calculator"
+      }
+    },
+    {
+      "input": {
+        "vialAmount": 60,
+        "waterMl": 6,
+        "unitsDrawn": 25,
+        "syringe": "U-50"
+      },
+      "site": {
+        "summary": "25 units on a U-100, 0.5 mL syringe holds 2500 mcg (0.25 mL of liquid) from a 60 mg vial mixed with 6 mL of water.",
+        "mode": "units_to_dose",
+        "dose": "2500 mcg",
+        "doseAllUnits": [
+          "2500 mcg",
+          "2.5 mg"
+        ],
+        "liquidPerDose": "0.25 mL",
+        "shareOfVial": "4.2%",
+        "reading": {
+          "syringe": "U-100, 0.5 mL",
+          "units": 25,
+          "unitsText": "25 units"
+        },
+        "warnings": [],
+        "note": "Arithmetic on the numbers given. It does not say whether a dose suits you.",
+        "calculatorUrl": "https://truepeptidesource.com/calculators/reconstitution?mode=units&vial=60&water=6&units=25&syringe=U-50&utm_source=mcp&utm_medium=ai_tool&utm_campaign=peptide_reconstitution_calculator"
+      }
+    }
+  ],
+  "blend": [
+    {
+      "input": {
+        "components": [
+          {
+            "peptide": "BPC-157",
+            "amount": 5,
+            "unit": "mg"
+          },
+          {
+            "peptide": "TB-500",
+            "amount": 5,
+            "unit": "mg"
+          }
+        ],
+        "waterMl": 2,
+        "totalDose": true,
+        "dose": 500,
+        "doseUnit": "mcg"
+      },
+      "site": {
+        "summary": "Draw 10 units on a U-100, 1 mL syringe (0.1 mL). Each dose delivers 250 mcg BPC-157, 250 mcg TB-500. The vial holds 20 full doses.",
+        "reading": {
+          "syringe": "U-100, 1 mL",
+          "units": 10,
+          "unitsText": "10 units"
+        },
+        "liquidPerDose": "0.1 mL",
+        "perComponent": [
+          {
+            "peptide": "BPC-157",
+            "amountPerDose": "250 mcg",
+            "concentration": [
+              "2.5 mg/mL",
+              "2500 mcg/mL"
+            ],
+            "shareOfVial": "50%"
+          },
+          {
+            "peptide": "TB-500",
+            "amountPerDose": "250 mcg",
+            "concentration": [
+              "2.5 mg/mL",
+              "2500 mcg/mL"
+            ],
+            "shareOfVial": "50%"
+          }
+        ],
+        "vialTotal": "10 mg",
+        "drawnTotal": "500 mcg",
+        "fullDosesPerVial": 20,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 10,
+            "unitsText": "10 units"
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 4,
+            "unitsText": "4 units"
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 10,
+            "unitsText": "10 units"
+          }
+        ],
+        "warnings": [
+          "The TB-500 amount (250 mcg) is below the usual range (500 to 5000 mcg). Check the unit."
+        ],
+        "note": "Arithmetic on the numbers given. It does not say whether a dose suits you.",
+        "calculatorUrl": "https://truepeptidesource.com/calculators/blend?blend=custom&c=bpc-157%3A5%3Amg%2Ctb-500%3A5%3Amg&mode=total&dose=500&du=mcg&water=2&syringe=U-100&utm_source=mcp&utm_medium=ai_tool&utm_campaign=peptide_blend_calculator"
+      }
+    },
+    {
+      "input": {
+        "blend": "KLOW",
+        "waterMl": 4,
+        "totalDose": true,
+        "dose": 2,
+        "doseUnit": "mg"
+      },
+      "site": {
+        "summary": "Draw 10 units on a U-100, 1 mL syringe (0.1 mL). Each dose delivers 1250 mcg GHK-Cu, 250 mcg BPC-157, 250 mcg TB-500, 250 mcg KPV. The vial holds 40 full doses.",
+        "reading": {
+          "syringe": "U-100, 1 mL",
+          "units": 10,
+          "unitsText": "10 units"
+        },
+        "liquidPerDose": "0.1 mL",
+        "perComponent": [
+          {
+            "peptide": "GHK-Cu",
+            "amountPerDose": "1250 mcg",
+            "concentration": [
+              "12.5 mg/mL",
+              "12500 mcg/mL"
+            ],
+            "shareOfVial": "62.5%"
+          },
+          {
+            "peptide": "BPC-157",
+            "amountPerDose": "250 mcg",
+            "concentration": [
+              "2.5 mg/mL",
+              "2500 mcg/mL"
+            ],
+            "shareOfVial": "12.5%"
+          },
+          {
+            "peptide": "TB-500",
+            "amountPerDose": "250 mcg",
+            "concentration": [
+              "2.5 mg/mL",
+              "2500 mcg/mL"
+            ],
+            "shareOfVial": "12.5%"
+          },
+          {
+            "peptide": "KPV",
+            "amountPerDose": "250 mcg",
+            "concentration": [
+              "2.5 mg/mL",
+              "2500 mcg/mL"
+            ],
+            "shareOfVial": "12.5%"
+          }
+        ],
+        "vialTotal": "80 mg",
+        "drawnTotal": "2000 mcg",
+        "fullDosesPerVial": 40,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 10,
+            "unitsText": "10 units"
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 4,
+            "unitsText": "4 units"
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 10,
+            "unitsText": "10 units"
+          }
+        ],
+        "warnings": [
+          "The TB-500 amount (250 mcg) is below the usual range (500 to 5000 mcg). Check the unit."
+        ],
+        "note": "Arithmetic on the numbers given. It does not say whether a dose suits you.",
+        "calculatorUrl": "https://truepeptidesource.com/calculators/blend?blend=klow&comp=0&mode=total&dose=2&du=mg&water=4&syringe=U-100&utm_source=mcp&utm_medium=ai_tool&utm_campaign=peptide_blend_calculator"
+      }
+    },
+    {
+      "input": {
+        "blend": "KLOW",
+        "waterMl": 3,
+        "targetPeptide": "BPC-157",
+        "dose": 500,
+        "doseUnit": "mcg"
+      },
+      "site": {
+        "summary": "Draw 15 units on a U-100, 1 mL syringe (0.15 mL). Each dose delivers 2500 mcg GHK-Cu, 500 mcg BPC-157, 500 mcg TB-500, 500 mcg KPV. The vial holds 20 full doses.",
+        "reading": {
+          "syringe": "U-100, 1 mL",
+          "units": 15,
+          "unitsText": "15 units",
+          "nearestMark": "14 units",
+          "changeIfDrawnToNearestMark": "-6.7%"
+        },
+        "liquidPerDose": "0.15 mL",
+        "perComponent": [
+          {
+            "peptide": "GHK-Cu",
+            "amountPerDose": "2500 mcg",
+            "concentration": [
+              "16.667 mg/mL",
+              "16666.7 mcg/mL"
+            ],
+            "shareOfVial": "62.5%"
+          },
+          {
+            "peptide": "BPC-157",
+            "amountPerDose": "500 mcg",
+            "concentration": [
+              "3.333 mg/mL",
+              "3333.3 mcg/mL"
+            ],
+            "shareOfVial": "12.5%"
+          },
+          {
+            "peptide": "TB-500",
+            "amountPerDose": "500 mcg",
+            "concentration": [
+              "3.333 mg/mL",
+              "3333.3 mcg/mL"
+            ],
+            "shareOfVial": "12.5%"
+          },
+          {
+            "peptide": "KPV",
+            "amountPerDose": "500 mcg",
+            "concentration": [
+              "3.333 mg/mL",
+              "3333.3 mcg/mL"
+            ],
+            "shareOfVial": "12.5%"
+          }
+        ],
+        "vialTotal": "80 mg",
+        "drawnTotal": "4000 mcg",
+        "fullDosesPerVial": 20,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 15,
+            "unitsText": "15 units"
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 6,
+            "unitsText": "6 units"
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 15,
+            "unitsText": "15 units"
+          }
+        ],
+        "warnings": [
+          "15 units falls between the 14 and 16 unit marks on this syringe.",
+          "Drawing to the 14 unit mark gives 6.7% less than this dose. A U-100 insulin syringe, 0.5 mL (50 units, sold as U-50) has finer marks: draw 15 units on it."
+        ],
+        "note": "Arithmetic on the numbers given. It does not say whether a dose suits you.",
+        "calculatorUrl": "https://truepeptidesource.com/calculators/blend?blend=klow&comp=0&mode=component&target=bpc-157&dose=500&du=mcg&water=3&syringe=U-100&utm_source=mcp&utm_medium=ai_tool&utm_campaign=peptide_blend_calculator"
+      }
+    },
+    {
+      "input": {
+        "blend": "GLOW",
+        "waterMl": 3,
+        "totalDose": true,
+        "dose": 2.33,
+        "doseUnit": "mg"
+      },
+      "site": {
+        "summary": "Draw 10 units on a U-100, 1 mL syringe (0.1 mL). Each dose delivers 1664.3 mcg GHK-Cu, 332.9 mcg BPC-157, 332.9 mcg TB-500. The vial holds 30 full doses.",
+        "composition": "70 mg (50 + 10 + 10)",
+        "otherCompositions": [
+          "42 mg (27 + 5 + 10)",
+          "42 mg (30 + 6 + 6)"
+        ],
+        "reading": {
+          "syringe": "U-100, 1 mL",
+          "units": 10,
+          "unitsText": "10 units"
+        },
+        "liquidPerDose": "0.1 mL",
+        "perComponent": [
+          {
+            "peptide": "GHK-Cu",
+            "amountPerDose": "1664.3 mcg",
+            "concentration": [
+              "16.667 mg/mL",
+              "16666.7 mcg/mL"
+            ],
+            "shareOfVial": "71.4%"
+          },
+          {
+            "peptide": "BPC-157",
+            "amountPerDose": "332.9 mcg",
+            "concentration": [
+              "3.333 mg/mL",
+              "3333.3 mcg/mL"
+            ],
+            "shareOfVial": "14.3%"
+          },
+          {
+            "peptide": "TB-500",
+            "amountPerDose": "332.9 mcg",
+            "concentration": [
+              "3.333 mg/mL",
+              "3333.3 mcg/mL"
+            ],
+            "shareOfVial": "14.3%"
+          }
+        ],
+        "vialTotal": "70 mg",
+        "drawnTotal": "2330 mcg",
+        "fullDosesPerVial": 30,
+        "otherSyringes": [
+          {
+            "syringe": "U-100, 0.5 mL",
+            "units": 10,
+            "unitsText": "10 units"
+          },
+          {
+            "syringe": "U-40, 1 mL",
+            "units": 4,
+            "unitsText": "4 units"
+          },
+          {
+            "syringe": "U-100, 0.3 mL",
+            "units": 10,
+            "unitsText": "10 units"
+          }
+        ],
+        "warnings": [
+          "The TB-500 amount (332.9 mcg) is below the usual range (500 to 5000 mcg). Check the unit.",
+          "10 units falls between the 8 and 10 unit marks on this syringe."
+        ],
+        "note": "Arithmetic on the numbers given. It does not say whether a dose suits you.",
+        "calculatorUrl": "https://truepeptidesource.com/calculators/blend?blend=glow&comp=0&mode=total&dose=2.33&du=mg&water=3&syringe=U-100&utm_source=mcp&utm_medium=ai_tool&utm_campaign=peptide_blend_calculator"
+      }
+    }
+  ]
+}

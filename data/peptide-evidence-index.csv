@@ -1,0 +1,68 @@
+slug,name,url,categories,is_blend,human_trials,animal_only,fda_status,sources_total,distinct_source_urls,sources_clinical_study,sources_regulatory,sources_protocol_sites,sources_community,sources_media,sources_reference,protocols_total,protocols_study_or_regulator,protocols_clinical_study,protocols_regulatory,protocols_protocol_sites,protocols_community,protocols_media,protocols_reference,updated_at
+5-amino-1mq,5-Amino-1MQ,https://truepeptidesource.com/peptides/5-amino-1mq,weight_loss;longevity_mitochondrial,false,none,true,not_evaluated,40,40,5,5,3,27,0,0,8,0,0,0,3,5,0,0,2026-11-07
+adamax,Adamax,https://truepeptidesource.com/peptides/adamax,cognitive,false,none,false,not_evaluated,48,46,0,5,8,35,0,0,10,0,0,0,3,7,0,0,2026-11-07
+adipotide,Adipotide,https://truepeptidesource.com/peptides/adipotide,weight_loss,false,none,true,not_evaluated,34,33,3,4,7,19,0,1,7,1,1,0,2,4,0,0,2026-11-07
+ahk-cu,AHK-Cu,https://truepeptidesource.com/peptides/ahk-cu,skin_hair,false,none,true,not_evaluated,27,26,3,3,9,12,0,0,11,0,0,0,6,5,0,0,2026-11-07
+aod-9604,AOD-9604,https://truepeptidesource.com/peptides/aod-9604,weight_loss,false,limited,false,removed_or_withdrawn,45,43,4,9,7,23,2,0,12,2,2,0,4,6,0,0,2026-10-24
+ara-290,ARA-290,https://truepeptidesource.com/peptides/ara-290,healing_recovery;immune,false,limited,false,compounding_category_3,34,33,13,8,8,3,0,2,10,5,5,0,2,3,0,0,2026-11-07
+bpc-157,BPC-157,https://truepeptidesource.com/peptides/bpc-157,healing_recovery,false,limited,false,hhs_503a_enforcement_discretion,49,47,7,13,26,3,0,0,23,0,0,0,20,3,0,0,2026-11-07
+bpc-157-tb-500-blend,BPC-157 + TB-500 blend,https://truepeptidesource.com/peptides/bpc-157-tb-500-blend,healing_recovery,true,none,false,removed_or_withdrawn,38,38,4,11,20,3,0,0,8,0,0,0,8,0,0,0,2026-11-07
+cagrilintide,Cagrilintide,https://truepeptidesource.com/peptides/cagrilintide,weight_loss,false,moderate,false,investigational,43,42,12,5,7,18,0,1,13,3,3,0,6,4,0,0,2026-11-07
+cagrisema,CagriSema,https://truepeptidesource.com/peptides/cagrisema,weight_loss;glp1,true,strong,false,investigational,49,46,16,7,6,19,1,0,6,4,4,0,1,1,0,0,2026-11-07
+cartalax,Cartalax,https://truepeptidesource.com/peptides/cartalax,healing_recovery;longevity_mitochondrial,false,none,true,not_evaluated,21,20,8,3,7,2,0,1,5,0,0,0,3,2,0,0,2026-11-07
+cerebrolysin,Cerebrolysin,https://truepeptidesource.com/peptides/cerebrolysin,cognitive,false,moderate,false,not_evaluated,24,23,8,8,4,3,0,1,11,8,4,4,0,3,0,0,2026-11-07
+cjc-1295,CJC-1295,https://truepeptidesource.com/peptides/cjc-1295,gh_axis,false,limited,false,removed_or_withdrawn,28,25,5,3,17,3,0,0,9,0,0,0,5,4,0,0,2026-10-24
+cjc-1295-ipamorelin,CJC-1295 (no DAC) + Ipamorelin,https://truepeptidesource.com/peptides/cjc-1295-ipamorelin,gh_axis,true,none,false,removed_or_withdrawn,21,19,4,2,13,2,0,0,8,0,0,0,6,2,0,0,2026-10-23
+dihexa,Dihexa,https://truepeptidesource.com/peptides/dihexa,cognitive,false,none,true,removed_or_withdrawn,47,45,7,3,5,29,2,1,8,0,0,0,2,6,0,0,2026-11-07
+dsip,DSIP,https://truepeptidesource.com/peptides/dsip,sleep,false,limited,false,removed_or_withdrawn,73,72,9,8,14,41,1,0,20,2,2,0,11,7,0,0,2026-11-07
+eloralintide,Eloralintide,https://truepeptidesource.com/peptides/eloralintide,weight_loss,false,moderate,false,investigational,23,23,10,5,5,2,0,1,8,6,6,0,2,0,0,0,2026-11-07
+epitalon,Epitalon,https://truepeptidesource.com/peptides/epitalon,longevity_mitochondrial;sleep,false,limited,false,hhs_503a_enforcement_discretion,90,89,16,11,24,39,0,0,23,3,3,0,14,6,0,0,2026-11-07
+follistatin-344,Follistatin 344,https://truepeptidesource.com/peptides/follistatin-344,other,false,limited,false,not_evaluated,26,24,12,3,7,4,0,0,12,0,0,0,7,5,0,0,2026-10-24
+foxo4-dri,FOXO4-DRI,https://truepeptidesource.com/peptides/foxo4-dri,longevity_mitochondrial,false,none,true,not_evaluated,31,26,9,3,11,7,0,1,7,0,0,0,1,6,0,0,2026-11-07
+ghk-cu,GHK-Cu,https://truepeptidesource.com/peptides/ghk-cu,skin_hair;healing_recovery,false,limited,false,removed_or_withdrawn,47,45,5,7,33,2,0,0,11,0,0,0,11,0,0,0,2026-11-07
+ghrp-2-ghrp-6,GHRP-2 and GHRP-6,https://truepeptidesource.com/peptides/ghrp-2-ghrp-6,gh_axis,false,limited,false,compounding_category_2,32,29,10,4,15,3,0,0,13,2,2,0,8,3,0,0,2026-10-24
+glow,GLOW,https://truepeptidesource.com/peptides/glow,skin_hair;healing_recovery,true,none,false,removed_or_withdrawn,28,28,1,11,15,1,0,0,7,0,0,0,6,1,0,0,2026-11-07
+glutathione,Glutathione,https://truepeptidesource.com/peptides/glutathione,longevity_mitochondrial;skin_hair,false,limited,false,compounding_category_1,58,56,14,7,10,26,0,1,19,10,10,0,7,2,0,0,2026-11-07
+gonadorelin,Gonadorelin,https://truepeptidesource.com/peptides/gonadorelin,sexual_health;other,false,moderate,false,approved_other_indication,22,21,6,7,6,2,0,1,11,4,3,1,3,3,0,1,2026-10-24
+hexarelin,Hexarelin,https://truepeptidesource.com/peptides/hexarelin,gh_axis,false,limited,false,not_evaluated,28,26,14,4,5,3,0,2,16,4,4,0,8,4,0,0,2026-10-24
+hgh-fragment-176-191,HGH Fragment 176-191,https://truepeptidesource.com/peptides/hgh-fragment-176-191,weight_loss;gh_axis,false,none,true,not_evaluated,35,33,6,4,7,16,0,2,7,0,0,0,3,4,0,0,2026-10-24
+humanin,Humanin,https://truepeptidesource.com/peptides/humanin,longevity_mitochondrial;cognitive,false,none,true,not_evaluated,30,25,11,3,8,7,0,1,10,0,0,0,1,9,0,0,2026-11-07
+igf-1-lr3,IGF-1 LR3,https://truepeptidesource.com/peptides/igf-1-lr3,gh_axis,false,none,true,not_evaluated,22,20,3,5,12,2,0,0,10,0,0,0,8,2,0,0,2026-10-23
+ipamorelin,Ipamorelin,https://truepeptidesource.com/peptides/ipamorelin,gh_axis,false,limited,false,removed_or_withdrawn,23,21,6,4,11,2,0,0,10,0,0,0,8,2,0,0,2026-10-24
+kisspeptin,Kisspeptin,https://truepeptidesource.com/peptides/kisspeptin,sexual_health;other,false,limited,false,compounding_category_2,26,20,11,5,4,5,0,1,10,5,5,0,2,3,0,0,2026-11-07
+klow,KLOW,https://truepeptidesource.com/peptides/klow,skin_hair;healing_recovery;immune,true,none,false,removed_or_withdrawn,34,33,1,13,14,6,0,0,8,0,0,0,8,0,0,0,2026-11-07
+kpv,KPV,https://truepeptidesource.com/peptides/kpv,immune;healing_recovery,false,none,true,hhs_503a_enforcement_discretion,35,35,5,11,18,1,0,0,18,0,0,0,18,0,0,0,2026-11-07
+liraglutide,Liraglutide,https://truepeptidesource.com/peptides/liraglutide,glp1;weight_loss,false,strong,false,approved,21,19,3,11,3,3,0,1,5,3,0,3,1,1,0,0,2026-11-07
+ll-37,LL-37,https://truepeptidesource.com/peptides/ll-37,immune;healing_recovery,false,limited,false,removed_or_withdrawn,36,34,14,4,12,4,0,2,18,3,3,0,12,3,0,0,2026-11-07
+mazdutide,Mazdutide,https://truepeptidesource.com/peptides/mazdutide,glp1;weight_loss,false,strong,false,investigational,39,38,9,8,3,16,1,2,13,8,7,1,2,2,1,0,2026-11-07
+melanotan-1,Melanotan 1,https://truepeptidesource.com/peptides/melanotan-1,skin_hair,false,strong,false,approved_other_indication,28,28,10,7,4,7,0,0,8,4,3,1,2,2,0,0,2026-11-07
+melanotan-ii,Melanotan II,https://truepeptidesource.com/peptides/melanotan-ii,skin_hair;sexual_health,false,limited,false,removed_or_withdrawn,51,49,15,3,6,25,0,2,12,2,2,0,5,5,0,0,2026-10-24
+mk-677,MK-677 (Ibutamoren),https://truepeptidesource.com/peptides/mk-677,gh_axis,false,moderate,false,compounding_category_2,26,26,10,5,7,2,0,2,16,7,7,0,6,3,0,0,2026-10-24
+mots-c,MOTS-c,https://truepeptidesource.com/peptides/mots-c,longevity_mitochondrial;weight_loss,false,none,true,hhs_503a_enforcement_discretion,72,70,7,12,13,38,2,0,16,0,0,0,9,7,0,0,2026-11-07
+n-acetyl-selank-amidate,N-Acetyl Selank Amidate,https://truepeptidesource.com/peptides/n-acetyl-selank-amidate,cognitive;sleep,false,none,false,not_evaluated,35,35,0,3,7,23,0,2,6,0,0,0,4,2,0,0,2026-11-07
+n-acetyl-semax-amidate,N-Acetyl Semax Amidate,https://truepeptidesource.com/peptides/n-acetyl-semax-amidate,cognitive,false,none,false,not_evaluated,45,45,2,8,9,24,0,2,9,0,0,0,6,3,0,0,2026-11-07
+nad-plus,NAD+,https://truepeptidesource.com/peptides/nad-plus,longevity_mitochondrial;cognitive,false,limited,false,compounding_category_1,61,60,8,6,18,29,0,0,19,3,3,0,13,3,0,0,2026-11-07
+oxytocin,Oxytocin,https://truepeptidesource.com/peptides/oxytocin,sexual_health;cognitive,false,moderate,false,approved_other_indication,24,22,6,7,7,3,0,1,13,5,4,1,3,5,0,0,2026-11-07
+p21,P21,https://truepeptidesource.com/peptides/p21,cognitive,false,none,true,not_evaluated,46,43,12,3,11,18,0,2,10,0,0,0,6,4,0,0,2026-11-07
+pe-22-28,PE-22-28,https://truepeptidesource.com/peptides/pe-22-28,cognitive,false,none,true,not_evaluated,24,21,4,4,12,4,0,0,8,0,0,0,4,4,0,0,2026-11-07
+peg-mgf,PEG-MGF,https://truepeptidesource.com/peptides/peg-mgf,healing_recovery;gh_axis,false,none,true,removed_or_withdrawn,23,20,10,3,7,3,0,0,10,0,0,0,5,5,0,0,2026-10-24
+pinealon,Pinealon,https://truepeptidesource.com/peptides/pinealon,cognitive;longevity_mitochondrial;sleep,false,limited,false,not_evaluated,38,35,16,3,9,7,0,3,10,1,1,0,6,3,0,0,2026-11-07
+pt-141,PT-141,https://truepeptidesource.com/peptides/pt-141,sexual_health,false,strong,false,approved_other_indication,33,29,9,5,6,13,0,0,9,4,3,1,4,1,0,0,2026-11-07
+retatrutide,Retatrutide,https://truepeptidesource.com/peptides/retatrutide,glp1;weight_loss,false,strong,false,investigational,86,81,17,6,10,46,6,1,18,3,3,0,5,10,0,0,2026-10-24
+selank,Selank,https://truepeptidesource.com/peptides/selank,cognitive;sleep,false,limited,false,removed_or_withdrawn,102,97,16,4,17,64,0,1,24,1,1,0,16,7,0,0,2026-11-07
+selank-semax-blend,Selank + Semax blend,https://truepeptidesource.com/peptides/selank-semax-blend,cognitive,true,none,false,removed_or_withdrawn,25,24,2,9,7,7,0,0,7,0,0,0,5,2,0,0,2026-11-07
+semaglutide,Semaglutide,https://truepeptidesource.com/peptides/semaglutide,glp1;weight_loss,false,strong,false,approved,33,33,7,15,10,1,0,0,12,7,1,6,2,3,0,0,2026-11-07
+semax,Semax,https://truepeptidesource.com/peptides/semax,cognitive,false,limited,false,hhs_503a_enforcement_discretion,77,76,11,12,11,40,0,3,30,10,3,7,16,4,0,0,2026-11-07
+sermorelin,Sermorelin,https://truepeptidesource.com/peptides/sermorelin,gh_axis,false,moderate,false,removed_or_withdrawn,26,24,7,9,8,2,0,0,11,1,1,0,8,2,0,0,2026-10-24
+slu-pp-332,SLU-PP-332,https://truepeptidesource.com/peptides/slu-pp-332,weight_loss;longevity_mitochondrial,false,none,true,not_evaluated,34,31,10,4,7,12,0,1,7,0,0,0,1,6,0,0,2026-11-07
+snap-8,SNAP-8,https://truepeptidesource.com/peptides/snap-8,skin_hair,false,limited,false,not_evaluated,28,27,5,3,11,8,0,1,7,0,0,0,6,1,0,0,2026-11-07
+somatropin,Somatropin (HGH),https://truepeptidesource.com/peptides/somatropin,gh_axis,false,strong,false,approved_other_indication,37,35,2,12,4,19,0,0,10,6,0,6,0,4,0,0,2026-10-24
+ss-31,SS-31,https://truepeptidesource.com/peptides/ss-31,longevity_mitochondrial,false,moderate,false,approved_other_indication,94,93,13,7,20,54,0,0,35,9,7,2,12,14,0,0,2026-10-24
+survodutide,Survodutide,https://truepeptidesource.com/peptides/survodutide,glp1;weight_loss,false,strong,false,investigational,43,42,12,6,4,19,0,2,10,7,7,0,1,2,0,0,2026-11-07
+tb-500,TB-500,https://truepeptidesource.com/peptides/tb-500,healing_recovery,false,none,true,hhs_503a_enforcement_discretion,50,47,6,11,28,5,0,0,19,0,0,0,16,3,0,0,2026-11-07
+tesamorelin,Tesamorelin,https://truepeptidesource.com/peptides/tesamorelin,gh_axis,false,strong,false,approved_other_indication,31,29,6,8,15,2,0,0,11,3,1,2,6,2,0,0,2026-10-23
+thymalin,Thymalin,https://truepeptidesource.com/peptides/thymalin,immune;longevity_mitochondrial,false,limited,false,not_evaluated,20,19,7,5,6,2,0,0,10,2,0,2,5,3,0,0,2026-11-07
+thymosin-alpha-1,Thymosin Alpha-1,https://truepeptidesource.com/peptides/thymosin-alpha-1,immune;longevity_mitochondrial,false,moderate,false,removed_or_withdrawn,28,26,8,5,9,4,1,1,19,5,2,3,9,5,0,0,2026-11-07
+thymosin-beta-4,Thymosin beta-4,https://truepeptidesource.com/peptides/thymosin-beta-4,healing_recovery,false,moderate,false,investigational,27,26,14,4,6,1,0,2,10,6,6,0,1,3,0,0,2026-11-07
+tirzepatide,Tirzepatide,https://truepeptidesource.com/peptides/tirzepatide,glp1;weight_loss,false,strong,false,approved,41,39,7,18,14,1,1,0,12,6,2,4,6,0,0,0,2026-10-24
+vip,VIP,https://truepeptidesource.com/peptides/vip,immune;other,false,limited,false,compounding_category_1,29,28,11,4,10,2,0,2,15,3,3,0,9,3,0,0,2026-11-07

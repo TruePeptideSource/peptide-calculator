@@ -1,0 +1,2522 @@
+{
+  "name": "Peptide Evidence Index",
+  "description": "Per peptide: how strong the human evidence is, the FDA status, and how many sources and dose protocols come from studies, regulators, guides and communities.",
+  "url": "https://truepeptidesource.com/data",
+  "methodology": "https://truepeptidesource.com/methodology",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "TruePeptideSource (https://truepeptidesource.com/data)"
+  },
+  "citation": "TruePeptideSource. (2026). Peptide Evidence Index (Version 2026-11-07) [Data set]. https://truepeptidesource.com/data",
+  "dateModified": "2026-11-07",
+  "origins": [
+    "clinical_study",
+    "regulatory",
+    "protocol_sites",
+    "community",
+    "media",
+    "reference"
+  ],
+  "fields": {
+    "slug": "Stable id; the page is /peptides/<slug>.",
+    "human_trials": "none | limited | moderate | strong: how much human trial evidence exists.",
+    "animal_only": "true when the only evidence is animal or cell studies.",
+    "fda_status": "approved | approved_other_indication | investigational | compounding_category_1 | compounding_category_2 | compounding_category_3 | hhs_503a_enforcement_discretion | not_evaluated | removed_or_withdrawn | unknown.",
+    "sources": "Distinct sources cited on the page, by origin. A page cited for two origins counts once under each. protocol_sites: doses published on other peptide sites, unverified by any study.",
+    "distinct_source_urls": "Distinct source URLs, whatever their origin.",
+    "protocols": "Dose protocols by origin label. A protocol takes the weakest origin among its sources, so a dose backed by a trial and a forum counts as community.",
+    "protocols_study_or_regulator": "Protocols labelled clinical study or regulatory: every source behind them is a study or a regulator.",
+    "updated_at": "When the record last changed (YYYY-MM-DD)."
+  },
+  "totals": {
+    "compounds": 67,
+    "sources": {
+      "clinical_study": 544,
+      "regulatory": 438,
+      "protocol_sites": 697,
+      "community": 878,
+      "media": 17,
+      "reference": 50
+    },
+    "sourcesTotal": 2624,
+    "distinctSourceUrls": 2116,
+    "protocols": {
+      "clinical_study": 124,
+      "regulatory": 44,
+      "protocol_sites": 409,
+      "community": 239,
+      "media": 1,
+      "reference": 1
+    },
+    "protocolsTotal": 818,
+    "protocolsStudyOrRegulator": 168,
+    "evidence": {
+      "none": 8,
+      "limited": 22,
+      "moderate": 10,
+      "strong": 11,
+      "animal_only": 16
+    }
+  },
+  "categories": [
+    {
+      "category": "longevity_mitochondrial",
+      "compounds": 13,
+      "protocols": {
+        "clinical_study": 26,
+        "regulatory": 7,
+        "protocol_sites": 84,
+        "community": 71,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 188
+    },
+    {
+      "category": "cognitive",
+      "compounds": 14,
+      "protocols": {
+        "clinical_study": 16,
+        "regulatory": 12,
+        "protocol_sites": 85,
+        "community": 62,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 175
+    },
+    {
+      "category": "weight_loss",
+      "compounds": 15,
+      "protocols": {
+        "clinical_study": 36,
+        "regulatory": 14,
+        "protocol_sites": 48,
+        "community": 55,
+        "media": 1,
+        "reference": 0
+      },
+      "protocolsTotal": 154
+    },
+    {
+      "category": "healing_recovery",
+      "compounds": 12,
+      "protocols": {
+        "clinical_study": 14,
+        "regulatory": 0,
+        "protocol_sites": 110,
+        "community": 23,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 147
+    },
+    {
+      "category": "gh_axis",
+      "compounds": 12,
+      "protocols": {
+        "clinical_study": 15,
+        "regulatory": 8,
+        "protocol_sites": 71,
+        "community": 37,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 131
+    },
+    {
+      "category": "immune",
+      "compounds": 7,
+      "protocols": {
+        "clinical_study": 13,
+        "regulatory": 5,
+        "protocol_sites": 63,
+        "community": 17,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 98
+    },
+    {
+      "category": "skin_hair",
+      "compounds": 8,
+      "protocols": {
+        "clinical_study": 15,
+        "regulatory": 1,
+        "protocol_sites": 51,
+        "community": 16,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 83
+    },
+    {
+      "category": "sleep",
+      "compounds": 5,
+      "protocols": {
+        "clinical_study": 7,
+        "regulatory": 0,
+        "protocol_sites": 51,
+        "community": 25,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 83
+    },
+    {
+      "category": "glp1",
+      "compounds": 7,
+      "protocols": {
+        "clinical_study": 24,
+        "regulatory": 14,
+        "protocol_sites": 18,
+        "community": 19,
+        "media": 1,
+        "reference": 0
+      },
+      "protocolsTotal": 76
+    },
+    {
+      "category": "sexual_health",
+      "compounds": 5,
+      "protocols": {
+        "clinical_study": 17,
+        "regulatory": 3,
+        "protocol_sites": 17,
+        "community": 17,
+        "media": 0,
+        "reference": 1
+      },
+      "protocolsTotal": 55
+    },
+    {
+      "category": "other",
+      "compounds": 4,
+      "protocols": {
+        "clinical_study": 11,
+        "regulatory": 1,
+        "protocol_sites": 21,
+        "community": 14,
+        "media": 0,
+        "reference": 1
+      },
+      "protocolsTotal": 48
+    }
+  ],
+  "compounds": [
+    {
+      "slug": "5-amino-1mq",
+      "name": "5-Amino-1MQ",
+      "path": "/peptides/5-amino-1mq",
+      "categories": [
+        "weight_loss",
+        "longevity_mitochondrial"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 5,
+        "regulatory": 5,
+        "protocol_sites": 3,
+        "community": 27,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 40,
+      "distinctSourceUrls": 40,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 3,
+        "community": 5,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 8,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/5-amino-1mq"
+    },
+    {
+      "slug": "adamax",
+      "name": "Adamax",
+      "path": "/peptides/adamax",
+      "categories": [
+        "cognitive"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": false,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 0,
+        "regulatory": 5,
+        "protocol_sites": 8,
+        "community": 35,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 48,
+      "distinctSourceUrls": 46,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 3,
+        "community": 7,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/adamax"
+    },
+    {
+      "slug": "adipotide",
+      "name": "Adipotide",
+      "path": "/peptides/adipotide",
+      "categories": [
+        "weight_loss"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 3,
+        "regulatory": 4,
+        "protocol_sites": 7,
+        "community": 19,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 34,
+      "distinctSourceUrls": 33,
+      "protocols": {
+        "clinical_study": 1,
+        "regulatory": 0,
+        "protocol_sites": 2,
+        "community": 4,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 7,
+      "protocolsStudyOrRegulator": 1,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/adipotide"
+    },
+    {
+      "slug": "ahk-cu",
+      "name": "AHK-Cu",
+      "path": "/peptides/ahk-cu",
+      "categories": [
+        "skin_hair"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 3,
+        "regulatory": 3,
+        "protocol_sites": 9,
+        "community": 12,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 27,
+      "distinctSourceUrls": 26,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 6,
+        "community": 5,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 11,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/ahk-cu"
+    },
+    {
+      "slug": "aod-9604",
+      "name": "AOD-9604",
+      "path": "/peptides/aod-9604",
+      "categories": [
+        "weight_loss"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 4,
+        "regulatory": 9,
+        "protocol_sites": 7,
+        "community": 23,
+        "media": 2,
+        "reference": 0
+      },
+      "sourcesTotal": 45,
+      "distinctSourceUrls": 43,
+      "protocols": {
+        "clinical_study": 2,
+        "regulatory": 0,
+        "protocol_sites": 4,
+        "community": 6,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 12,
+      "protocolsStudyOrRegulator": 2,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/aod-9604"
+    },
+    {
+      "slug": "ara-290",
+      "name": "ARA-290",
+      "path": "/peptides/ara-290",
+      "categories": [
+        "healing_recovery",
+        "immune"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "compounding_category_3",
+      "sources": {
+        "clinical_study": 13,
+        "regulatory": 8,
+        "protocol_sites": 8,
+        "community": 3,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 34,
+      "distinctSourceUrls": 33,
+      "protocols": {
+        "clinical_study": 5,
+        "regulatory": 0,
+        "protocol_sites": 2,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 5,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/ara-290"
+    },
+    {
+      "slug": "bpc-157",
+      "name": "BPC-157",
+      "path": "/peptides/bpc-157",
+      "categories": [
+        "healing_recovery"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "hhs_503a_enforcement_discretion",
+      "sources": {
+        "clinical_study": 7,
+        "regulatory": 13,
+        "protocol_sites": 26,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 49,
+      "distinctSourceUrls": 47,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 20,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 23,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/bpc-157"
+    },
+    {
+      "slug": "bpc-157-tb-500-blend",
+      "name": "BPC-157 + TB-500 blend",
+      "path": "/peptides/bpc-157-tb-500-blend",
+      "categories": [
+        "healing_recovery"
+      ],
+      "isBlend": true,
+      "humanTrials": "none",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 4,
+        "regulatory": 11,
+        "protocol_sites": 20,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 38,
+      "distinctSourceUrls": 38,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 8,
+        "community": 0,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 8,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/bpc-157-tb-500-blend"
+    },
+    {
+      "slug": "cagrilintide",
+      "name": "Cagrilintide",
+      "path": "/peptides/cagrilintide",
+      "categories": [
+        "weight_loss"
+      ],
+      "isBlend": false,
+      "humanTrials": "moderate",
+      "animalOnly": false,
+      "fdaStatus": "investigational",
+      "sources": {
+        "clinical_study": 12,
+        "regulatory": 5,
+        "protocol_sites": 7,
+        "community": 18,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 43,
+      "distinctSourceUrls": 42,
+      "protocols": {
+        "clinical_study": 3,
+        "regulatory": 0,
+        "protocol_sites": 6,
+        "community": 4,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 13,
+      "protocolsStudyOrRegulator": 3,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/cagrilintide"
+    },
+    {
+      "slug": "cagrisema",
+      "name": "CagriSema",
+      "path": "/peptides/cagrisema",
+      "categories": [
+        "weight_loss",
+        "glp1"
+      ],
+      "isBlend": true,
+      "humanTrials": "strong",
+      "animalOnly": false,
+      "fdaStatus": "investigational",
+      "sources": {
+        "clinical_study": 16,
+        "regulatory": 7,
+        "protocol_sites": 6,
+        "community": 19,
+        "media": 1,
+        "reference": 0
+      },
+      "sourcesTotal": 49,
+      "distinctSourceUrls": 46,
+      "protocols": {
+        "clinical_study": 4,
+        "regulatory": 0,
+        "protocol_sites": 1,
+        "community": 1,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 6,
+      "protocolsStudyOrRegulator": 4,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/cagrisema"
+    },
+    {
+      "slug": "cartalax",
+      "name": "Cartalax",
+      "path": "/peptides/cartalax",
+      "categories": [
+        "healing_recovery",
+        "longevity_mitochondrial"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 8,
+        "regulatory": 3,
+        "protocol_sites": 7,
+        "community": 2,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 21,
+      "distinctSourceUrls": 20,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 3,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 5,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/cartalax"
+    },
+    {
+      "slug": "cerebrolysin",
+      "name": "Cerebrolysin",
+      "path": "/peptides/cerebrolysin",
+      "categories": [
+        "cognitive"
+      ],
+      "isBlend": false,
+      "humanTrials": "moderate",
+      "animalOnly": false,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 8,
+        "regulatory": 8,
+        "protocol_sites": 4,
+        "community": 3,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 24,
+      "distinctSourceUrls": 23,
+      "protocols": {
+        "clinical_study": 4,
+        "regulatory": 4,
+        "protocol_sites": 0,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 11,
+      "protocolsStudyOrRegulator": 8,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/cerebrolysin"
+    },
+    {
+      "slug": "cjc-1295",
+      "name": "CJC-1295",
+      "path": "/peptides/cjc-1295",
+      "categories": [
+        "gh_axis"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 5,
+        "regulatory": 3,
+        "protocol_sites": 17,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 28,
+      "distinctSourceUrls": 25,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 5,
+        "community": 4,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 9,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/cjc-1295"
+    },
+    {
+      "slug": "cjc-1295-ipamorelin",
+      "name": "CJC-1295 (no DAC) + Ipamorelin",
+      "path": "/peptides/cjc-1295-ipamorelin",
+      "categories": [
+        "gh_axis"
+      ],
+      "isBlend": true,
+      "humanTrials": "none",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 4,
+        "regulatory": 2,
+        "protocol_sites": 13,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 21,
+      "distinctSourceUrls": 19,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 6,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 8,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-10-23",
+      "url": "https://truepeptidesource.com/peptides/cjc-1295-ipamorelin"
+    },
+    {
+      "slug": "dihexa",
+      "name": "Dihexa",
+      "path": "/peptides/dihexa",
+      "categories": [
+        "cognitive"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 7,
+        "regulatory": 3,
+        "protocol_sites": 5,
+        "community": 29,
+        "media": 2,
+        "reference": 1
+      },
+      "sourcesTotal": 47,
+      "distinctSourceUrls": 45,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 2,
+        "community": 6,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 8,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/dihexa"
+    },
+    {
+      "slug": "dsip",
+      "name": "DSIP",
+      "path": "/peptides/dsip",
+      "categories": [
+        "sleep"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 9,
+        "regulatory": 8,
+        "protocol_sites": 14,
+        "community": 41,
+        "media": 1,
+        "reference": 0
+      },
+      "sourcesTotal": 73,
+      "distinctSourceUrls": 72,
+      "protocols": {
+        "clinical_study": 2,
+        "regulatory": 0,
+        "protocol_sites": 11,
+        "community": 7,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 20,
+      "protocolsStudyOrRegulator": 2,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/dsip"
+    },
+    {
+      "slug": "eloralintide",
+      "name": "Eloralintide",
+      "path": "/peptides/eloralintide",
+      "categories": [
+        "weight_loss"
+      ],
+      "isBlend": false,
+      "humanTrials": "moderate",
+      "animalOnly": false,
+      "fdaStatus": "investigational",
+      "sources": {
+        "clinical_study": 10,
+        "regulatory": 5,
+        "protocol_sites": 5,
+        "community": 2,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 23,
+      "distinctSourceUrls": 23,
+      "protocols": {
+        "clinical_study": 6,
+        "regulatory": 0,
+        "protocol_sites": 2,
+        "community": 0,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 8,
+      "protocolsStudyOrRegulator": 6,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/eloralintide"
+    },
+    {
+      "slug": "epitalon",
+      "name": "Epitalon",
+      "path": "/peptides/epitalon",
+      "categories": [
+        "longevity_mitochondrial",
+        "sleep"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "hhs_503a_enforcement_discretion",
+      "sources": {
+        "clinical_study": 16,
+        "regulatory": 11,
+        "protocol_sites": 24,
+        "community": 39,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 90,
+      "distinctSourceUrls": 89,
+      "protocols": {
+        "clinical_study": 3,
+        "regulatory": 0,
+        "protocol_sites": 14,
+        "community": 6,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 23,
+      "protocolsStudyOrRegulator": 3,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/epitalon"
+    },
+    {
+      "slug": "follistatin-344",
+      "name": "Follistatin 344",
+      "path": "/peptides/follistatin-344",
+      "categories": [
+        "other"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 12,
+        "regulatory": 3,
+        "protocol_sites": 7,
+        "community": 4,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 26,
+      "distinctSourceUrls": 24,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 7,
+        "community": 5,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 12,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/follistatin-344"
+    },
+    {
+      "slug": "foxo4-dri",
+      "name": "FOXO4-DRI",
+      "path": "/peptides/foxo4-dri",
+      "categories": [
+        "longevity_mitochondrial"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 9,
+        "regulatory": 3,
+        "protocol_sites": 11,
+        "community": 7,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 31,
+      "distinctSourceUrls": 26,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 1,
+        "community": 6,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 7,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/foxo4-dri"
+    },
+    {
+      "slug": "ghk-cu",
+      "name": "GHK-Cu",
+      "path": "/peptides/ghk-cu",
+      "categories": [
+        "skin_hair",
+        "healing_recovery"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 5,
+        "regulatory": 7,
+        "protocol_sites": 33,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 47,
+      "distinctSourceUrls": 45,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 11,
+        "community": 0,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 11,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/ghk-cu"
+    },
+    {
+      "slug": "ghrp-2-ghrp-6",
+      "name": "GHRP-2 and GHRP-6",
+      "path": "/peptides/ghrp-2-ghrp-6",
+      "categories": [
+        "gh_axis"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "compounding_category_2",
+      "sources": {
+        "clinical_study": 10,
+        "regulatory": 4,
+        "protocol_sites": 15,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 32,
+      "distinctSourceUrls": 29,
+      "protocols": {
+        "clinical_study": 2,
+        "regulatory": 0,
+        "protocol_sites": 8,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 13,
+      "protocolsStudyOrRegulator": 2,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/ghrp-2-ghrp-6"
+    },
+    {
+      "slug": "glow",
+      "name": "GLOW",
+      "path": "/peptides/glow",
+      "categories": [
+        "skin_hair",
+        "healing_recovery"
+      ],
+      "isBlend": true,
+      "humanTrials": "none",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 1,
+        "regulatory": 11,
+        "protocol_sites": 15,
+        "community": 1,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 28,
+      "distinctSourceUrls": 28,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 6,
+        "community": 1,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 7,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/glow"
+    },
+    {
+      "slug": "glutathione",
+      "name": "Glutathione",
+      "path": "/peptides/glutathione",
+      "categories": [
+        "longevity_mitochondrial",
+        "skin_hair"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "compounding_category_1",
+      "sources": {
+        "clinical_study": 14,
+        "regulatory": 7,
+        "protocol_sites": 10,
+        "community": 26,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 58,
+      "distinctSourceUrls": 56,
+      "protocols": {
+        "clinical_study": 10,
+        "regulatory": 0,
+        "protocol_sites": 7,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 19,
+      "protocolsStudyOrRegulator": 10,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/glutathione"
+    },
+    {
+      "slug": "gonadorelin",
+      "name": "Gonadorelin",
+      "path": "/peptides/gonadorelin",
+      "categories": [
+        "sexual_health",
+        "other"
+      ],
+      "isBlend": false,
+      "humanTrials": "moderate",
+      "animalOnly": false,
+      "fdaStatus": "approved_other_indication",
+      "sources": {
+        "clinical_study": 6,
+        "regulatory": 7,
+        "protocol_sites": 6,
+        "community": 2,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 22,
+      "distinctSourceUrls": 21,
+      "protocols": {
+        "clinical_study": 3,
+        "regulatory": 1,
+        "protocol_sites": 3,
+        "community": 3,
+        "media": 0,
+        "reference": 1
+      },
+      "protocolsTotal": 11,
+      "protocolsStudyOrRegulator": 4,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/gonadorelin"
+    },
+    {
+      "slug": "hexarelin",
+      "name": "Hexarelin",
+      "path": "/peptides/hexarelin",
+      "categories": [
+        "gh_axis"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 14,
+        "regulatory": 4,
+        "protocol_sites": 5,
+        "community": 3,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 28,
+      "distinctSourceUrls": 26,
+      "protocols": {
+        "clinical_study": 4,
+        "regulatory": 0,
+        "protocol_sites": 8,
+        "community": 4,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 16,
+      "protocolsStudyOrRegulator": 4,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/hexarelin"
+    },
+    {
+      "slug": "hgh-fragment-176-191",
+      "name": "HGH Fragment 176-191",
+      "path": "/peptides/hgh-fragment-176-191",
+      "categories": [
+        "weight_loss",
+        "gh_axis"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 6,
+        "regulatory": 4,
+        "protocol_sites": 7,
+        "community": 16,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 35,
+      "distinctSourceUrls": 33,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 3,
+        "community": 4,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 7,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/hgh-fragment-176-191"
+    },
+    {
+      "slug": "humanin",
+      "name": "Humanin",
+      "path": "/peptides/humanin",
+      "categories": [
+        "longevity_mitochondrial",
+        "cognitive"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 11,
+        "regulatory": 3,
+        "protocol_sites": 8,
+        "community": 7,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 30,
+      "distinctSourceUrls": 25,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 1,
+        "community": 9,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/humanin"
+    },
+    {
+      "slug": "igf-1-lr3",
+      "name": "IGF-1 LR3",
+      "path": "/peptides/igf-1-lr3",
+      "categories": [
+        "gh_axis"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 3,
+        "regulatory": 5,
+        "protocol_sites": 12,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 22,
+      "distinctSourceUrls": 20,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 8,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-10-23",
+      "url": "https://truepeptidesource.com/peptides/igf-1-lr3"
+    },
+    {
+      "slug": "ipamorelin",
+      "name": "Ipamorelin",
+      "path": "/peptides/ipamorelin",
+      "categories": [
+        "gh_axis"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 6,
+        "regulatory": 4,
+        "protocol_sites": 11,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 23,
+      "distinctSourceUrls": 21,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 8,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/ipamorelin"
+    },
+    {
+      "slug": "kisspeptin",
+      "name": "Kisspeptin",
+      "path": "/peptides/kisspeptin",
+      "categories": [
+        "sexual_health",
+        "other"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "compounding_category_2",
+      "sources": {
+        "clinical_study": 11,
+        "regulatory": 5,
+        "protocol_sites": 4,
+        "community": 5,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 26,
+      "distinctSourceUrls": 20,
+      "protocols": {
+        "clinical_study": 5,
+        "regulatory": 0,
+        "protocol_sites": 2,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 5,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/kisspeptin"
+    },
+    {
+      "slug": "klow",
+      "name": "KLOW",
+      "path": "/peptides/klow",
+      "categories": [
+        "skin_hair",
+        "healing_recovery",
+        "immune"
+      ],
+      "isBlend": true,
+      "humanTrials": "none",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 1,
+        "regulatory": 13,
+        "protocol_sites": 14,
+        "community": 6,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 34,
+      "distinctSourceUrls": 33,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 8,
+        "community": 0,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 8,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/klow"
+    },
+    {
+      "slug": "kpv",
+      "name": "KPV",
+      "path": "/peptides/kpv",
+      "categories": [
+        "immune",
+        "healing_recovery"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "hhs_503a_enforcement_discretion",
+      "sources": {
+        "clinical_study": 5,
+        "regulatory": 11,
+        "protocol_sites": 18,
+        "community": 1,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 35,
+      "distinctSourceUrls": 35,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 18,
+        "community": 0,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 18,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/kpv"
+    },
+    {
+      "slug": "liraglutide",
+      "name": "Liraglutide",
+      "path": "/peptides/liraglutide",
+      "categories": [
+        "glp1",
+        "weight_loss"
+      ],
+      "isBlend": false,
+      "humanTrials": "strong",
+      "animalOnly": false,
+      "fdaStatus": "approved",
+      "sources": {
+        "clinical_study": 3,
+        "regulatory": 11,
+        "protocol_sites": 3,
+        "community": 3,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 21,
+      "distinctSourceUrls": 19,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 3,
+        "protocol_sites": 1,
+        "community": 1,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 5,
+      "protocolsStudyOrRegulator": 3,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/liraglutide"
+    },
+    {
+      "slug": "ll-37",
+      "name": "LL-37",
+      "path": "/peptides/ll-37",
+      "categories": [
+        "immune",
+        "healing_recovery"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 14,
+        "regulatory": 4,
+        "protocol_sites": 12,
+        "community": 4,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 36,
+      "distinctSourceUrls": 34,
+      "protocols": {
+        "clinical_study": 3,
+        "regulatory": 0,
+        "protocol_sites": 12,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 18,
+      "protocolsStudyOrRegulator": 3,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/ll-37"
+    },
+    {
+      "slug": "mazdutide",
+      "name": "Mazdutide",
+      "path": "/peptides/mazdutide",
+      "categories": [
+        "glp1",
+        "weight_loss"
+      ],
+      "isBlend": false,
+      "humanTrials": "strong",
+      "animalOnly": false,
+      "fdaStatus": "investigational",
+      "sources": {
+        "clinical_study": 9,
+        "regulatory": 8,
+        "protocol_sites": 3,
+        "community": 16,
+        "media": 1,
+        "reference": 2
+      },
+      "sourcesTotal": 39,
+      "distinctSourceUrls": 38,
+      "protocols": {
+        "clinical_study": 7,
+        "regulatory": 1,
+        "protocol_sites": 2,
+        "community": 2,
+        "media": 1,
+        "reference": 0
+      },
+      "protocolsTotal": 13,
+      "protocolsStudyOrRegulator": 8,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/mazdutide"
+    },
+    {
+      "slug": "melanotan-1",
+      "name": "Melanotan 1",
+      "path": "/peptides/melanotan-1",
+      "categories": [
+        "skin_hair"
+      ],
+      "isBlend": false,
+      "humanTrials": "strong",
+      "animalOnly": false,
+      "fdaStatus": "approved_other_indication",
+      "sources": {
+        "clinical_study": 10,
+        "regulatory": 7,
+        "protocol_sites": 4,
+        "community": 7,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 28,
+      "distinctSourceUrls": 28,
+      "protocols": {
+        "clinical_study": 3,
+        "regulatory": 1,
+        "protocol_sites": 2,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 8,
+      "protocolsStudyOrRegulator": 4,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/melanotan-1"
+    },
+    {
+      "slug": "melanotan-ii",
+      "name": "Melanotan II",
+      "path": "/peptides/melanotan-ii",
+      "categories": [
+        "skin_hair",
+        "sexual_health"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 15,
+        "regulatory": 3,
+        "protocol_sites": 6,
+        "community": 25,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 51,
+      "distinctSourceUrls": 49,
+      "protocols": {
+        "clinical_study": 2,
+        "regulatory": 0,
+        "protocol_sites": 5,
+        "community": 5,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 12,
+      "protocolsStudyOrRegulator": 2,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/melanotan-ii"
+    },
+    {
+      "slug": "mk-677",
+      "name": "MK-677 (Ibutamoren)",
+      "path": "/peptides/mk-677",
+      "categories": [
+        "gh_axis"
+      ],
+      "isBlend": false,
+      "humanTrials": "moderate",
+      "animalOnly": false,
+      "fdaStatus": "compounding_category_2",
+      "sources": {
+        "clinical_study": 10,
+        "regulatory": 5,
+        "protocol_sites": 7,
+        "community": 2,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 26,
+      "distinctSourceUrls": 26,
+      "protocols": {
+        "clinical_study": 7,
+        "regulatory": 0,
+        "protocol_sites": 6,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 16,
+      "protocolsStudyOrRegulator": 7,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/mk-677"
+    },
+    {
+      "slug": "mots-c",
+      "name": "MOTS-c",
+      "path": "/peptides/mots-c",
+      "categories": [
+        "longevity_mitochondrial",
+        "weight_loss"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "hhs_503a_enforcement_discretion",
+      "sources": {
+        "clinical_study": 7,
+        "regulatory": 12,
+        "protocol_sites": 13,
+        "community": 38,
+        "media": 2,
+        "reference": 0
+      },
+      "sourcesTotal": 72,
+      "distinctSourceUrls": 70,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 9,
+        "community": 7,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 16,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/mots-c"
+    },
+    {
+      "slug": "n-acetyl-selank-amidate",
+      "name": "N-Acetyl Selank Amidate",
+      "path": "/peptides/n-acetyl-selank-amidate",
+      "categories": [
+        "cognitive",
+        "sleep"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": false,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 0,
+        "regulatory": 3,
+        "protocol_sites": 7,
+        "community": 23,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 35,
+      "distinctSourceUrls": 35,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 4,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 6,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/n-acetyl-selank-amidate"
+    },
+    {
+      "slug": "n-acetyl-semax-amidate",
+      "name": "N-Acetyl Semax Amidate",
+      "path": "/peptides/n-acetyl-semax-amidate",
+      "categories": [
+        "cognitive"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": false,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 2,
+        "regulatory": 8,
+        "protocol_sites": 9,
+        "community": 24,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 45,
+      "distinctSourceUrls": 45,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 6,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 9,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/n-acetyl-semax-amidate"
+    },
+    {
+      "slug": "nad-plus",
+      "name": "NAD+",
+      "path": "/peptides/nad-plus",
+      "categories": [
+        "longevity_mitochondrial",
+        "cognitive"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "compounding_category_1",
+      "sources": {
+        "clinical_study": 8,
+        "regulatory": 6,
+        "protocol_sites": 18,
+        "community": 29,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 61,
+      "distinctSourceUrls": 60,
+      "protocols": {
+        "clinical_study": 3,
+        "regulatory": 0,
+        "protocol_sites": 13,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 19,
+      "protocolsStudyOrRegulator": 3,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/nad-plus"
+    },
+    {
+      "slug": "oxytocin",
+      "name": "Oxytocin",
+      "path": "/peptides/oxytocin",
+      "categories": [
+        "sexual_health",
+        "cognitive"
+      ],
+      "isBlend": false,
+      "humanTrials": "moderate",
+      "animalOnly": false,
+      "fdaStatus": "approved_other_indication",
+      "sources": {
+        "clinical_study": 6,
+        "regulatory": 7,
+        "protocol_sites": 7,
+        "community": 3,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 24,
+      "distinctSourceUrls": 22,
+      "protocols": {
+        "clinical_study": 4,
+        "regulatory": 1,
+        "protocol_sites": 3,
+        "community": 5,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 13,
+      "protocolsStudyOrRegulator": 5,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/oxytocin"
+    },
+    {
+      "slug": "p21",
+      "name": "P21",
+      "path": "/peptides/p21",
+      "categories": [
+        "cognitive"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 12,
+        "regulatory": 3,
+        "protocol_sites": 11,
+        "community": 18,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 46,
+      "distinctSourceUrls": 43,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 6,
+        "community": 4,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/p21"
+    },
+    {
+      "slug": "pe-22-28",
+      "name": "PE-22-28",
+      "path": "/peptides/pe-22-28",
+      "categories": [
+        "cognitive"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 4,
+        "regulatory": 4,
+        "protocol_sites": 12,
+        "community": 4,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 24,
+      "distinctSourceUrls": 21,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 4,
+        "community": 4,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 8,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/pe-22-28"
+    },
+    {
+      "slug": "peg-mgf",
+      "name": "PEG-MGF",
+      "path": "/peptides/peg-mgf",
+      "categories": [
+        "healing_recovery",
+        "gh_axis"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 10,
+        "regulatory": 3,
+        "protocol_sites": 7,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 23,
+      "distinctSourceUrls": 20,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 5,
+        "community": 5,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/peg-mgf"
+    },
+    {
+      "slug": "pinealon",
+      "name": "Pinealon",
+      "path": "/peptides/pinealon",
+      "categories": [
+        "cognitive",
+        "longevity_mitochondrial",
+        "sleep"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 16,
+        "regulatory": 3,
+        "protocol_sites": 9,
+        "community": 7,
+        "media": 0,
+        "reference": 3
+      },
+      "sourcesTotal": 38,
+      "distinctSourceUrls": 35,
+      "protocols": {
+        "clinical_study": 1,
+        "regulatory": 0,
+        "protocol_sites": 6,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 1,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/pinealon"
+    },
+    {
+      "slug": "pt-141",
+      "name": "PT-141",
+      "path": "/peptides/pt-141",
+      "categories": [
+        "sexual_health"
+      ],
+      "isBlend": false,
+      "humanTrials": "strong",
+      "animalOnly": false,
+      "fdaStatus": "approved_other_indication",
+      "sources": {
+        "clinical_study": 9,
+        "regulatory": 5,
+        "protocol_sites": 6,
+        "community": 13,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 33,
+      "distinctSourceUrls": 29,
+      "protocols": {
+        "clinical_study": 3,
+        "regulatory": 1,
+        "protocol_sites": 4,
+        "community": 1,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 9,
+      "protocolsStudyOrRegulator": 4,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/pt-141"
+    },
+    {
+      "slug": "retatrutide",
+      "name": "Retatrutide",
+      "path": "/peptides/retatrutide",
+      "categories": [
+        "glp1",
+        "weight_loss"
+      ],
+      "isBlend": false,
+      "humanTrials": "strong",
+      "animalOnly": false,
+      "fdaStatus": "investigational",
+      "sources": {
+        "clinical_study": 17,
+        "regulatory": 6,
+        "protocol_sites": 10,
+        "community": 46,
+        "media": 6,
+        "reference": 1
+      },
+      "sourcesTotal": 86,
+      "distinctSourceUrls": 81,
+      "protocols": {
+        "clinical_study": 3,
+        "regulatory": 0,
+        "protocol_sites": 5,
+        "community": 10,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 18,
+      "protocolsStudyOrRegulator": 3,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/retatrutide"
+    },
+    {
+      "slug": "selank",
+      "name": "Selank",
+      "path": "/peptides/selank",
+      "categories": [
+        "cognitive",
+        "sleep"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 16,
+        "regulatory": 4,
+        "protocol_sites": 17,
+        "community": 64,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 102,
+      "distinctSourceUrls": 97,
+      "protocols": {
+        "clinical_study": 1,
+        "regulatory": 0,
+        "protocol_sites": 16,
+        "community": 7,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 24,
+      "protocolsStudyOrRegulator": 1,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/selank"
+    },
+    {
+      "slug": "selank-semax-blend",
+      "name": "Selank + Semax blend",
+      "path": "/peptides/selank-semax-blend",
+      "categories": [
+        "cognitive"
+      ],
+      "isBlend": true,
+      "humanTrials": "none",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 2,
+        "regulatory": 9,
+        "protocol_sites": 7,
+        "community": 7,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 25,
+      "distinctSourceUrls": 24,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 5,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 7,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/selank-semax-blend"
+    },
+    {
+      "slug": "semaglutide",
+      "name": "Semaglutide",
+      "path": "/peptides/semaglutide",
+      "categories": [
+        "glp1",
+        "weight_loss"
+      ],
+      "isBlend": false,
+      "humanTrials": "strong",
+      "animalOnly": false,
+      "fdaStatus": "approved",
+      "sources": {
+        "clinical_study": 7,
+        "regulatory": 15,
+        "protocol_sites": 10,
+        "community": 1,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 33,
+      "distinctSourceUrls": 33,
+      "protocols": {
+        "clinical_study": 1,
+        "regulatory": 6,
+        "protocol_sites": 2,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 12,
+      "protocolsStudyOrRegulator": 7,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/semaglutide"
+    },
+    {
+      "slug": "semax",
+      "name": "Semax",
+      "path": "/peptides/semax",
+      "categories": [
+        "cognitive"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "hhs_503a_enforcement_discretion",
+      "sources": {
+        "clinical_study": 11,
+        "regulatory": 12,
+        "protocol_sites": 11,
+        "community": 40,
+        "media": 0,
+        "reference": 3
+      },
+      "sourcesTotal": 77,
+      "distinctSourceUrls": 76,
+      "protocols": {
+        "clinical_study": 3,
+        "regulatory": 7,
+        "protocol_sites": 16,
+        "community": 4,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 30,
+      "protocolsStudyOrRegulator": 10,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/semax"
+    },
+    {
+      "slug": "sermorelin",
+      "name": "Sermorelin",
+      "path": "/peptides/sermorelin",
+      "categories": [
+        "gh_axis"
+      ],
+      "isBlend": false,
+      "humanTrials": "moderate",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 7,
+        "regulatory": 9,
+        "protocol_sites": 8,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 26,
+      "distinctSourceUrls": 24,
+      "protocols": {
+        "clinical_study": 1,
+        "regulatory": 0,
+        "protocol_sites": 8,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 11,
+      "protocolsStudyOrRegulator": 1,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/sermorelin"
+    },
+    {
+      "slug": "slu-pp-332",
+      "name": "SLU-PP-332",
+      "path": "/peptides/slu-pp-332",
+      "categories": [
+        "weight_loss",
+        "longevity_mitochondrial"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 10,
+        "regulatory": 4,
+        "protocol_sites": 7,
+        "community": 12,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 34,
+      "distinctSourceUrls": 31,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 1,
+        "community": 6,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 7,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/slu-pp-332"
+    },
+    {
+      "slug": "snap-8",
+      "name": "SNAP-8",
+      "path": "/peptides/snap-8",
+      "categories": [
+        "skin_hair"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 5,
+        "regulatory": 3,
+        "protocol_sites": 11,
+        "community": 8,
+        "media": 0,
+        "reference": 1
+      },
+      "sourcesTotal": 28,
+      "distinctSourceUrls": 27,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 6,
+        "community": 1,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 7,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/snap-8"
+    },
+    {
+      "slug": "somatropin",
+      "name": "Somatropin (HGH)",
+      "path": "/peptides/somatropin",
+      "categories": [
+        "gh_axis"
+      ],
+      "isBlend": false,
+      "humanTrials": "strong",
+      "animalOnly": false,
+      "fdaStatus": "approved_other_indication",
+      "sources": {
+        "clinical_study": 2,
+        "regulatory": 12,
+        "protocol_sites": 4,
+        "community": 19,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 37,
+      "distinctSourceUrls": 35,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 6,
+        "protocol_sites": 0,
+        "community": 4,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 6,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/somatropin"
+    },
+    {
+      "slug": "ss-31",
+      "name": "SS-31",
+      "path": "/peptides/ss-31",
+      "categories": [
+        "longevity_mitochondrial"
+      ],
+      "isBlend": false,
+      "humanTrials": "moderate",
+      "animalOnly": false,
+      "fdaStatus": "approved_other_indication",
+      "sources": {
+        "clinical_study": 13,
+        "regulatory": 7,
+        "protocol_sites": 20,
+        "community": 54,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 94,
+      "distinctSourceUrls": 93,
+      "protocols": {
+        "clinical_study": 7,
+        "regulatory": 2,
+        "protocol_sites": 12,
+        "community": 14,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 35,
+      "protocolsStudyOrRegulator": 9,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/ss-31"
+    },
+    {
+      "slug": "survodutide",
+      "name": "Survodutide",
+      "path": "/peptides/survodutide",
+      "categories": [
+        "glp1",
+        "weight_loss"
+      ],
+      "isBlend": false,
+      "humanTrials": "strong",
+      "animalOnly": false,
+      "fdaStatus": "investigational",
+      "sources": {
+        "clinical_study": 12,
+        "regulatory": 6,
+        "protocol_sites": 4,
+        "community": 19,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 43,
+      "distinctSourceUrls": 42,
+      "protocols": {
+        "clinical_study": 7,
+        "regulatory": 0,
+        "protocol_sites": 1,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 7,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/survodutide"
+    },
+    {
+      "slug": "tb-500",
+      "name": "TB-500",
+      "path": "/peptides/tb-500",
+      "categories": [
+        "healing_recovery"
+      ],
+      "isBlend": false,
+      "humanTrials": "none",
+      "animalOnly": true,
+      "fdaStatus": "hhs_503a_enforcement_discretion",
+      "sources": {
+        "clinical_study": 6,
+        "regulatory": 11,
+        "protocol_sites": 28,
+        "community": 5,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 50,
+      "distinctSourceUrls": 47,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 0,
+        "protocol_sites": 16,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 19,
+      "protocolsStudyOrRegulator": 0,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/tb-500"
+    },
+    {
+      "slug": "tesamorelin",
+      "name": "Tesamorelin",
+      "path": "/peptides/tesamorelin",
+      "categories": [
+        "gh_axis"
+      ],
+      "isBlend": false,
+      "humanTrials": "strong",
+      "animalOnly": false,
+      "fdaStatus": "approved_other_indication",
+      "sources": {
+        "clinical_study": 6,
+        "regulatory": 8,
+        "protocol_sites": 15,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 31,
+      "distinctSourceUrls": 29,
+      "protocols": {
+        "clinical_study": 1,
+        "regulatory": 2,
+        "protocol_sites": 6,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 11,
+      "protocolsStudyOrRegulator": 3,
+      "updatedAt": "2026-10-23",
+      "url": "https://truepeptidesource.com/peptides/tesamorelin"
+    },
+    {
+      "slug": "thymalin",
+      "name": "Thymalin",
+      "path": "/peptides/thymalin",
+      "categories": [
+        "immune",
+        "longevity_mitochondrial"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "not_evaluated",
+      "sources": {
+        "clinical_study": 7,
+        "regulatory": 5,
+        "protocol_sites": 6,
+        "community": 2,
+        "media": 0,
+        "reference": 0
+      },
+      "sourcesTotal": 20,
+      "distinctSourceUrls": 19,
+      "protocols": {
+        "clinical_study": 0,
+        "regulatory": 2,
+        "protocol_sites": 5,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 2,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/thymalin"
+    },
+    {
+      "slug": "thymosin-alpha-1",
+      "name": "Thymosin Alpha-1",
+      "path": "/peptides/thymosin-alpha-1",
+      "categories": [
+        "immune",
+        "longevity_mitochondrial"
+      ],
+      "isBlend": false,
+      "humanTrials": "moderate",
+      "animalOnly": false,
+      "fdaStatus": "removed_or_withdrawn",
+      "sources": {
+        "clinical_study": 8,
+        "regulatory": 5,
+        "protocol_sites": 9,
+        "community": 4,
+        "media": 1,
+        "reference": 1
+      },
+      "sourcesTotal": 28,
+      "distinctSourceUrls": 26,
+      "protocols": {
+        "clinical_study": 2,
+        "regulatory": 3,
+        "protocol_sites": 9,
+        "community": 5,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 19,
+      "protocolsStudyOrRegulator": 5,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/thymosin-alpha-1"
+    },
+    {
+      "slug": "thymosin-beta-4",
+      "name": "Thymosin beta-4",
+      "path": "/peptides/thymosin-beta-4",
+      "categories": [
+        "healing_recovery"
+      ],
+      "isBlend": false,
+      "humanTrials": "moderate",
+      "animalOnly": false,
+      "fdaStatus": "investigational",
+      "sources": {
+        "clinical_study": 14,
+        "regulatory": 4,
+        "protocol_sites": 6,
+        "community": 1,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 27,
+      "distinctSourceUrls": 26,
+      "protocols": {
+        "clinical_study": 6,
+        "regulatory": 0,
+        "protocol_sites": 1,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 10,
+      "protocolsStudyOrRegulator": 6,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/thymosin-beta-4"
+    },
+    {
+      "slug": "tirzepatide",
+      "name": "Tirzepatide",
+      "path": "/peptides/tirzepatide",
+      "categories": [
+        "glp1",
+        "weight_loss"
+      ],
+      "isBlend": false,
+      "humanTrials": "strong",
+      "animalOnly": false,
+      "fdaStatus": "approved",
+      "sources": {
+        "clinical_study": 7,
+        "regulatory": 18,
+        "protocol_sites": 14,
+        "community": 1,
+        "media": 1,
+        "reference": 0
+      },
+      "sourcesTotal": 41,
+      "distinctSourceUrls": 39,
+      "protocols": {
+        "clinical_study": 2,
+        "regulatory": 4,
+        "protocol_sites": 6,
+        "community": 0,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 12,
+      "protocolsStudyOrRegulator": 6,
+      "updatedAt": "2026-10-24",
+      "url": "https://truepeptidesource.com/peptides/tirzepatide"
+    },
+    {
+      "slug": "vip",
+      "name": "VIP",
+      "path": "/peptides/vip",
+      "categories": [
+        "immune",
+        "other"
+      ],
+      "isBlend": false,
+      "humanTrials": "limited",
+      "animalOnly": false,
+      "fdaStatus": "compounding_category_1",
+      "sources": {
+        "clinical_study": 11,
+        "regulatory": 4,
+        "protocol_sites": 10,
+        "community": 2,
+        "media": 0,
+        "reference": 2
+      },
+      "sourcesTotal": 29,
+      "distinctSourceUrls": 28,
+      "protocols": {
+        "clinical_study": 3,
+        "regulatory": 0,
+        "protocol_sites": 9,
+        "community": 3,
+        "media": 0,
+        "reference": 0
+      },
+      "protocolsTotal": 15,
+      "protocolsStudyOrRegulator": 3,
+      "updatedAt": "2026-11-07",
+      "url": "https://truepeptidesource.com/peptides/vip"
+    }
+  ]
+}

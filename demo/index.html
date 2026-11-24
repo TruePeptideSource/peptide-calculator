@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Peptide Calculator Widget Demo</title>
+  <meta name="description" content="Three live embeds of the free TruePeptideSource peptide calculator widget: semaglutide, a BPC-157 + TB-500 blend, and an empty calculator.">
+  <style>
+    :root { --bg: #f6f4fb; --fg: #1c1530; --muted: #5d5670; --code: #ebe6f5; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #0f0c15; --fg: #efeaf8; --muted: #aaa2bd; --code: #221c2e; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 1240px; margin: 0 auto; padding: 32px 16px 64px; }
+    h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: -0.02em; }
+    p.lead { margin: 0 0 28px; color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; align-items: start; }
+    h2 { font-size: 15px; margin: 0 0 4px; }
+    code { display: block; background: var(--code); border-radius: 8px; padding: 8px 10px; font-size: 12px; overflow-wrap: anywhere; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Peptide calculator widget</h1>
+  <p class="lead">Each calculator below is one script tag. <a href="https://github.com/TruePeptideSource/peptide-calculator">Get the code on GitHub</a>.</p>
+  <div class="grid">
+    <section>
+      <h2>Semaglutide preset</h2>
+      <code>&lt;script src=".../dist/embed.js" data-peptide="semaglutide"&gt;&lt;/script&gt;</code>
+      <script src="../dist/embed.js" data-peptide="semaglutide"></script>
+    </section>
+    <section>
+      <h2>BPC-157 + TB-500 blend</h2>
+      <code>&lt;script src=".../dist/embed.js" data-peptide="bpc-157-tb-500"&gt;&lt;/script&gt;</code>
+      <script src="../dist/embed.js" data-peptide="bpc-157-tb-500"></script>
+    </section>
+    <section>
+      <h2>Empty, dark</h2>
+      <code>&lt;script src=".../dist/embed.js" data-theme="dark"&gt;&lt;/script&gt;</code>
+      <script src="../dist/embed.js" data-theme="dark"></script>
+    </section>
+  </div>
+</main>
+</body>
+</html>
