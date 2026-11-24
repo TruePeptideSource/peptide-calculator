@@ -8,9 +8,9 @@ How many units is 2.5 mg? Free calculator for peptides and GLP-1s, on any syring
 
 Paste that line where the calculator should appear. That's it.
 
-[![The widget: semaglutide, a BPC-157 + TB-500 blend, and an empty calculator in dark mode](docs/widget.png)](https://rawcdn.githack.com/TruePeptideSource/peptide-calculator/v1.0.0/demo/index.html)
+[![The widget: semaglutide, a BPC-157 + TB-500 blend, and an empty calculator in dark mode](docs/widget.png)](https://truepeptidesource.com/calculators/reconstitution)
 
-**[Live demo](https://rawcdn.githack.com/TruePeptideSource/peptide-calculator/v1.0.0/demo/index.html)** · **[Full calculator on truepeptidesource.com](https://truepeptidesource.com/calculators/reconstitution)**
+**[Try the full calculator on truepeptidesource.com](https://truepeptidesource.com/calculators/reconstitution)** · [Demo page source](demo/index.html) (open it locally after cloning)
 
 ## The widget
 
